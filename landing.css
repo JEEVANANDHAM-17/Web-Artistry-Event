@@ -1,0 +1,78 @@
+body
+{
+    background-image: url('https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.outer
+{
+     /* background-color: red;  */
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    justify-content: space-around;
+
+}
+
+.events span
+{
+    color: #f40363;
+
+}
+
+
+.events {
+
+    
+    border-radius: 4px;
+    background-color: #5ca1e1;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    padding: 16px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    }
+
+    .events{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    }
+
+    .events:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 52px;
+    right: -20px;
+    transition: 0.5s;
+   
+    }
+
+    .events:hover{
+    padding-right: 24px;
+    padding-left:8px;
+   
+    }
+
+    .events:hover:after {
+    opacity: 1;
+    right: 10px;
+    
+    }
+
+    .text
+    {
+        font-family: serif, Helvetica, sans-serif;
+    }

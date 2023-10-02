@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://img.freepik.com/premium-photo/top-view-office-desk-with-office-tools-computer-laptop-wood-table-background-with-copy-space-generative-ai_3535-3556.jpg');
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+form
+{
+    width: 70%;
+    margin: auto;
+    max-width: 900px;
+}
+  .container {
+    padding: 16px;
+    background-color: white;
+  }
+  
+ 
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  input[type=number]:focus, input[type=number]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+ 
+  .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+
+  a {
+    color: dodgerblue;
+  }
+  
+  
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
